@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+
+    .home {
+        width: 100%;
+        height: auto;
+        background-image: url('https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .opacity {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            background-color: #2F170F;
+            opacity: 0.3;
+
+        }
+
+        .one {
+            width: 100%;
+
+
+
+
+            .write {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-top: 70px;
+
+                h3 {
+                    color: #e6a756;
+                    font-size: 32px;
+                    font-weight: 700;
+                    opacity: 1 !important;
+
+                }
+
+                h1 {
+                    color: white;
+                    font-size: 90px;
+                    font-weight: 100;
+                }
+            }
+
+            .nav {
+
+                width: 100%;
+                height: 90px;
+                background-color: rgba(47, 23, 15, 0.9);
+                margin-top: 50px;
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 40%;
+
+                    li {
+                        a {
+                            font-weight: 600;
+                            color: white;
+                            text-decoration: none;
+                            transition: 0.2s;
+
+                            &:hover {
+                                color: rgb(174, 162, 162);
+                            }
+
+                        }
+
+                    }
+
+                }
+
+
+                .menu {
+                    width: 100%;
+                    display: none;
+                    background-color: rgba(47, 23, 15, 0.9);
+
+                    h2 {
+                        color: #e6a756;
+                    }
+
+
+                    i {
+                        color: white;
+                    }
+
+                    .ulmenu {
+                        display: none;
+                        gap: 10px;
+
+                        li {
+
+                            a {
+                                font-weight: 600;
+                                color: white;
+
+
+                            }
+
+                        }
+
+                    }
+
+                    .showbtn,
+                    .nonebtn {
+                        background: none;
+                        border: none;
+                        cursor: pointer;
+                        font-size: 1.5rem;
+                        color: #000;
+                    }
+
+                    .nonebtn {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .two {
+            width: 100%;
+            height: 100vh;
+            margin-top: 90px;
+
+            .image {
+                height: 630px;
+                width: 910px;
+                background-image: url('https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/intro.jpg');
+                background-size: 100%;
+                border-radius: 15px;
+                position: absolute;
+                left: 480px;
+
+
+
+            }
+
+            .fresh {
+                width: 590px;
+                height: 350px;
+                background-color: bisque;
+                border-radius: 15px;
+                position: absolute;
+                top: 520px;
+                left: 110px;
+
+                h2 {
+                    font-weight: bolder;
+                    font-size: 18px;
+                }
+
+                .worth {
+                    font-size: 48px;
+                    color: rgb(63, 59, 59);
+                    font-weight: 100;
+                }
+
+                .every {
+                    font-style: italic;
+                    line-height: 27px;
+                }
+
+                button {
+                    width: 130px;
+                    height: 60px;
+                    margin-top: 130px;
+                    position: absolute;
+                    background-color: #e6a756;
+                    color: black;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    top: 185px;
+
+                    &:hover {
+                        background-color: #e0ad6a;
+                    }
+                }
+            }
+
+        }
+
+        .about-two {
+            margin-top: 120px;
+            width: 100%;
+            height: 100vh;
+
+            .image {
+                height: 500px;
+                background-image: url('https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/about.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+
+            }
+
+            .fresh {
+                text-align: start;
+                padding: 40px;
+                background-color: bisque;
+                border-radius: 15px;
+                position: absolute;
+                top: 1005px;
+
+
+                h2 {
+                    font-weight: bolder;
+                    font-size: 18px;
+                }
+
+                .worth {
+                    font-size: 48px;
+                    color: rgb(63, 59, 59);
+                    font-weight: 100;
+                }
+
+                .every {
+                    font-style: italic;
+                    line-height: 27px;
+                }
+
+
+            }
+
+        }
+
+
+        .three {
+            width: 100%;
+            height: 480px;
+            background-color: rgb(230 167 78 / 80%);
+
+            .card {
+                height: 300px;
+                background-color: #f6e1c5;
+
+                .to {
+                    font-size: 38px;
+                    font-weight: 100;
+                }
+
+                h2 {
+                    font-size: 17px;
+                    font-weight: bolder;
+                }
+            }
+
+        }
+
+        footer {
+            margin-top: 198px;
+            width: 100%;
+            height: 139px;
+            background-color: #2F170F;
+            color: white;
+            opacity: 0.94;
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .home {
+        .one {
+            .write {
+                display: none;
+            }
+
+            .nav {
+                position: fixed;
+                height: 110px;
+                z-index: 1;
+
+                .ul {
+                    display: none;
+                }
+
+                .menu {
+                    display: flex;
+                    justify-content: space-around;
+
+
+
+
+                }
+            }
+        }
+
+        .two {
+            display: flex;
+            flex-direction: column;
+
+
+            .image {
+                margin-top: 130px;
+                width: 90%;
+                height: 300px;
+                /* Adjust the height as needed */
+                left: 20px;
+                position: relative;
+            }
+
+            .fresh {
+
+                width: 90%;
+                height: 300px;
+                top: 550px;
+                left: 20px;
+
+                button {
+                    top: 140px;
+                }
+            }
+        }
+
+        .about-two {
+
+            font-size: 12px;
+
+            .image {
+                height: 500px;
+            }
+
+            .fresh {
+                top: 420px;
+
+                .worth {
+                    font-size: 22px;
+                }
+
+            }
+        }
+
+        .three {
+            margin: auto;
+            width: 100%;
+            height: 400px;
+            margin-top: 150px;
+
+            .card {
+                width: 98%;
+                height: 300px;
+                padding: 15px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
+    .home {
+        .two {
+            display: flex;
+            flex-direction: column;
+
+            .image {
+                margin-top: 130px;
+                width: 90%;
+                height: 400px;
+                /* Adjust the height as needed */
+                left: 30px;
+                position: relative;
+            }
+
+            .fresh {
+                width: 90%;
+                height: 400px;
+                top: 1050px;
+                left: 30px;
+
+                button {
+                    top: 240px;
+                }
+            }
+        }
+
+        .three {
+            margin: auto;
+            width: 100%;
+            height: 500px;
+            margin-top: 540px;
+
+            .card {
+                width: 98%;
+                height: 400px;
+                padding: 15px;
+            }
+        }
+    }
+
+}

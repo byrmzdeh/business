@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+* .home {
+  width: 100%;
+  height: auto;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+* .home .opacity {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-color: #2F170F;
+  opacity: 0.3;
+}
+* .home .one {
+  width: 100%;
+}
+* .home .one .write {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+* .home .one .write h3 {
+  color: #e6a756;
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 1 !important;
+}
+* .home .one .write h1 {
+  color: white;
+  font-size: 90px;
+  font-weight: 100;
+}
+* .home .one .nav {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(47, 23, 15, 0.9);
+  margin-top: 50px;
+}
+* .home .one .nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+* .home .one .nav ul li a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+* .home .one .nav ul li a:hover {
+  color: rgb(174, 162, 162);
+}
+* .home .one .nav .menu {
+  width: 100%;
+  display: none;
+  background-color: rgba(47, 23, 15, 0.9);
+}
+* .home .one .nav .menu h2 {
+  color: #e6a756;
+}
+* .home .one .nav .menu i {
+  color: white;
+}
+* .home .one .nav .menu .ulmenu {
+  display: none;
+  gap: 10px;
+}
+* .home .one .nav .menu .ulmenu li a {
+  font-weight: 600;
+  color: white;
+}
+* .home .one .nav .menu .showbtn,
+* .home .one .nav .menu .nonebtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #000;
+}
+* .home .one .nav .menu .nonebtn {
+  display: none;
+}
+* .home .two {
+  width: 100%;
+  height: 100vh;
+  margin-top: 90px;
+}
+* .home .two .image {
+  height: 630px;
+  width: 910px;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/intro.jpg");
+  background-size: 100%;
+  border-radius: 15px;
+  position: absolute;
+  left: 480px;
+}
+* .home .two .fresh {
+  width: 590px;
+  height: 350px;
+  background-color: bisque;
+  border-radius: 15px;
+  position: absolute;
+  top: 520px;
+  left: 110px;
+}
+* .home .two .fresh h2 {
+  font-weight: bolder;
+  font-size: 18px;
+}
+* .home .two .fresh .worth {
+  font-size: 48px;
+  color: rgb(63, 59, 59);
+  font-weight: 100;
+}
+* .home .two .fresh .every {
+  font-style: italic;
+  line-height: 27px;
+}
+* .home .two .fresh button {
+  width: 130px;
+  height: 60px;
+  margin-top: 130px;
+  position: absolute;
+  background-color: #e6a756;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  top: 185px;
+}
+* .home .two .fresh button:hover {
+  background-color: #e0ad6a;
+}
+* .home .about-two {
+  margin-top: 120px;
+  width: 100%;
+  height: 100vh;
+}
+* .home .about-two .image {
+  height: 500px;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/about.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+* .home .about-two .fresh {
+  text-align: start;
+  padding: 40px;
+  background-color: bisque;
+  border-radius: 15px;
+  position: absolute;
+  top: 1005px;
+}
+* .home .about-two .fresh h2 {
+  font-weight: bolder;
+  font-size: 18px;
+}
+* .home .about-two .fresh .worth {
+  font-size: 48px;
+  color: rgb(63, 59, 59);
+  font-weight: 100;
+}
+* .home .about-two .fresh .every {
+  font-style: italic;
+  line-height: 27px;
+}
+* .home .three {
+  width: 100%;
+  height: 480px;
+  background-color: rgba(230, 167, 78, 0.8);
+}
+* .home .three .card {
+  height: 300px;
+  background-color: #f6e1c5;
+}
+* .home .three .card .to {
+  font-size: 38px;
+  font-weight: 100;
+}
+* .home .three .card h2 {
+  font-size: 17px;
+  font-weight: bolder;
+}
+* .home footer {
+  margin-top: 198px;
+  width: 100%;
+  height: 139px;
+  background-color: #2F170F;
+  color: white;
+  opacity: 0.94;
+}
+
+@media only screen and (max-width: 700px) {
+  .home .one .write {
+    display: none;
+  }
+  .home .one .nav {
+    position: fixed;
+    height: 110px;
+    z-index: 1;
+  }
+  .home .one .nav .ul {
+    display: none;
+  }
+  .home .one .nav .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  .home .two {
+    display: flex;
+    flex-direction: column;
+  }
+  .home .two .image {
+    margin-top: 130px;
+    width: 90%;
+    height: 300px;
+    /* Adjust the height as needed */
+    left: 20px;
+    position: relative;
+  }
+  .home .two .fresh {
+    width: 90%;
+    height: 300px;
+    top: 550px;
+    left: 20px;
+  }
+  .home .two .fresh button {
+    top: 140px;
+  }
+  .home .about-two {
+    font-size: 12px;
+  }
+  .home .about-two .image {
+    height: 500px;
+  }
+  .home .about-two .fresh {
+    top: 420px;
+  }
+  .home .about-two .fresh .worth {
+    font-size: 22px;
+  }
+  .home .three {
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+  }
+  .home .three .card {
+    width: 98%;
+    height: 300px;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
+  .home .two {
+    display: flex;
+    flex-direction: column;
+  }
+  .home .two .image {
+    margin-top: 130px;
+    width: 90%;
+    height: 400px;
+    /* Adjust the height as needed */
+    left: 30px;
+    position: relative;
+  }
+  .home .two .fresh {
+    width: 90%;
+    height: 400px;
+    top: 1050px;
+    left: 30px;
+  }
+  .home .two .fresh button {
+    top: 240px;
+  }
+  .home .three {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    margin-top: 540px;
+  }
+  .home .three .card {
+    width: 98%;
+    height: 400px;
+    padding: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
