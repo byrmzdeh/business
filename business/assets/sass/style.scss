@@ -7,21 +7,14 @@
     .home {
         width: 100%;
         height: auto;
-        background-image: url('https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg');
+        background-image:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         display: flex;
         flex-direction: column;
 
-        .opacity {
-            width: 100%;
-            height: auto;
-            position: absolute;
-            background-color: #2F170F;
-            opacity: 0.3;
-
-        }
+   
 
         .one {
             width: 100%;
@@ -105,8 +98,6 @@
                             a {
                                 font-weight: 600;
                                 color: white;
-
-
                             }
 
                         }
@@ -142,9 +133,6 @@
                 border-radius: 15px;
                 position: absolute;
                 left: 480px;
-
-
-
             }
 
             .fresh {
@@ -307,7 +295,6 @@
                 margin-top: 130px;
                 width: 90%;
                 height: 300px;
-                /* Adjust the height as needed */
                 left: 20px;
                 position: relative;
             }
@@ -369,7 +356,6 @@
                 margin-top: 130px;
                 width: 90%;
                 height: 400px;
-                /* Adjust the height as needed */
                 left: 30px;
                 position: relative;
             }
